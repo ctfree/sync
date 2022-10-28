@@ -68,7 +68,7 @@ task:
             metric: loss
             loss: mse
             n_jobs: 20
-            GPU: 1
+            GPU: 0
     dataset:
         class: TSDatasetH
         module_path: qlib.data.dataset
